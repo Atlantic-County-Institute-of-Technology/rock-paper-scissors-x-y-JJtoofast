@@ -1,0 +1,90 @@
+.button1{
+    color: white;
+background-color: plum; 
+position: absolute;
+width: 115px;
+height: 115px;
+border-radius: 50%;
+margin-left: 950px;
+margin-top: 850px;
+font-weight: bolder;
+font-size: 45px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: -1px 10px 1px 3.5px black;
+text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+} 
+.button2{
+    color: white;
+background-color: plum; 
+position: absolute;
+width: 115px;
+height: 115px;
+border-radius: 50%;
+margin-left: 800px;
+margin-top: 850px;
+font-weight: bolder;
+font-size: 45px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+box-shadow: -1px 10px 1px 3.5px black;
+text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+} 
+.button3{
+        color: white;
+    background-color: plum; 
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-left: 650px;
+    margin-top: 850px;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: -1px 10px 1px 3.5px black;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    } 
+    .button4{
+        color: white;
+        background-color: paleturquoise; 
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin-left: 800px;
+        margin-top: 1000px;
+        font-weight: bolder;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: -1px 10px 1px 3.5px black;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
+    .button5{
+        color: white;
+        background-color: paleturquoise; 
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin-left: 950px;
+        margin-top: 1000px;
+        font-weight: bolder;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: -1px 10px 1px 3.5px black;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
+    .b6{
+        color: white;
+        background-color: darkturquoise; 
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin-left: 650px;
+        margin-top: 1000px;
+        font-weight: bolder;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: -1px 10px 1px 3.5px black;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
