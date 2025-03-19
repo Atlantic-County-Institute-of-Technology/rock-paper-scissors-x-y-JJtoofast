@@ -1,9 +1,10 @@
 .button1{
     color: white;
-background-color: plum; 
+background-color: rgb(233, 233, 24); 
+background-image: url('assets/istockphoto-1146263300-612x612.jpg');
 position: absolute;
-width: 115px;
-height: 115px;
+width: 300px;
+height: 300px;
 border-radius: 50%;
 margin-left: 950px;
 margin-top: 850px;
@@ -15,13 +16,14 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
 } 
 .button2{
     color: white;
-background-color: plum; 
+background-color: white;
+background-image: url('assets/premium_photo-1675695700239-44153e6bf430.jpg');
 position: absolute;
-width: 115px;
-height: 115px;
+width: 300px;
+height: 300px;
 border-radius: 50%;
-margin-left: 800px;
-margin-top: 850px;
+margin-left: 955px;
+margin-top: 575px;
 font-weight: bolder;
 font-size: 45px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -30,12 +32,13 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
 } 
 .button3{
         color: white;
-    background-color: plum; 
+    background-color: red; 
+    background-image: url('assets/Rock.jpg');
     position: absolute;
-    width: 115px;
-    height: 115px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    margin-left: 650px;
+    margin-left: 350px;
     margin-top: 850px;
     font-weight: bolder;
     font-size: 45px;
@@ -45,13 +48,14 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
     } 
     .button4{
         color: white;
-        background-color: paleturquoise; 
+        background-color: white;
+        background-image: url('assets/stapler.jpg');
         position: absolute;
-        width: 115px;
-        height: 115px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
-        margin-left: 800px;
-        margin-top: 1000px;
+        margin-left: 1250px;
+        margin-top: 850px;
         font-weight: bolder;
         font-size: 45px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,13 +64,14 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
     }
     .button5{
         color: white;
-        background-color: paleturquoise; 
+        background-color: rgb(233, 233, 24);
+        background-image: url('assets/meade_headshot.png');
         position: absolute;
-        width: 115px;
-        height: 115px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
-        margin-left: 950px;
-        margin-top: 1000px;
+        margin-left: 1250px;
+        margin-top: 575px;
         font-weight: bolder;
         font-size: 45px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -75,7 +80,8 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
     }
     .b6{
         color: white;
-        background-color: darkturquoise; 
+        background-color: red;
+       background-image: url('assets/CostantinoPeter.jpg');
         position: absolute;
         width: 115px;
         height: 115px;
