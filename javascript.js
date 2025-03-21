@@ -9,8 +9,8 @@ const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 let playerScore = 0;     
 let computerScore = 0;    
 
-function playGame(playerChoice){
-
+function playGame(playerChoice) {
+    
     const computerChoice = choices[Math.floor(Math.random() * 3)];
     let result = ""; 
 
@@ -20,19 +20,18 @@ function playGame(playerChoice){
     else{
         switch(playerChoice){
             case "rock" :
-                result = (computerChoice === "scissors" ) ? "YOU WIN" :
+                result = (computerChoice === "scissors" ) ? "YOU WIN" : "You Lose:(";
                 break;
             case "paper":
-                result = (computerChoice === "rock") ? "YOU WIN" : "YOU WIN"
+                result = (computerChoice === "rock") ? "YOU WIN" : "YOU Lose:(";
+                break;
+             case "scissors":
+                result = (computerChoice === "paper") ? "YOU WIN" : "YOU Lose:(" ;
+                break;
          }
-        
+} 
+playerDisplay.textContent = 'PLAYER: ${playerchoice}' ;
+computerDisplay.textContent = 'COMPUTER: ${computerchoice}' ;
+resultDisplay.textContent = result;
+
 }
-
-
-
-
-
-
-
-
-
