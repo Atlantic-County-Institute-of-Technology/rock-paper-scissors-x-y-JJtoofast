@@ -9,15 +9,24 @@
 <body>
     <h1>Rock - Paper - Scissors</h1>
     
-    <button class ="button1" id="button1"></button>
-    <button class="button2" id="button2"></button>
-    <button class="button3" id="button3"></button>
-    <button class="button4" id="button4"></button>
-    <button class="button5" id="button5"></button>
+   <div class="choices">
+    <button onclick="playgame('rock')">👊</button>
+    <button onclick="playgame('Paper')">✋</button>
+    <button onclick="playgame('Scissors')">✌️</button>
+    <button onclick="playgame('Mr_C')">🧔</button>
+   </div>
   
     <div id="playerDisplay">PLAYER:</div>
     <div id="computerDisplay">CPU:</div>
-    <div id="resultDisplay">IT'S A TIE!</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Player Score:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer Score:
+        <span id="computerScoreDisplay">0</span>
+    </div>
 
 </section>
 
