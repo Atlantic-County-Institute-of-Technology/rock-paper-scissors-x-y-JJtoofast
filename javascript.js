@@ -1,6 +1,6 @@
 // ROCK PAPER SCISSORS
 
-const choices = ["rock", "paper", "scissors", "Mr_C" , "ruler"];
+const choices = ["rock", "paper", "scissors", "Mr_C", "ruler"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
@@ -13,7 +13,7 @@ let computerScore = 0;
 
 function playGame(playerChoice) {
     
-    const computerChoice = choices[Math.floor(Math.random() * 4)];
+    const computerChoice = choices[Math.floor(Math.random() * 5)];
     let result = ""; 
 
     if(playerChoice === computerChoice){
@@ -21,17 +21,20 @@ function playGame(playerChoice) {
     } 
     else{
         switch(playerChoice){
-            case "rock" :
-                result = (computerChoice === "scissors" ) ? "YOU WIN" : "You Lose:(";
+            case "rock":
+                result = (computerChoice === "scissors" ) ? "YOU WIN" : "You Lose";
                 break;
             case "paper":
-                result = (computerChoice === "rock") ? "YOU WIN" : "YOU Lose:(";
+                result = (computerChoice === "rock") ? "YOU WIN" : "YOU Lose";
                 break;
              case "scissors":
-                result = (computerChoice === "paper") ? "YOU WIN" : "YOU Lose:(" ;
+                result = (computerChoice === "paper") ? "YOU WIN" : "YOU Lose";
                 break;
-                case "Mr_C":
-                    result = (computerChoice === "rock") ? "YOU WIN" : "YOU Lose:(" ;
+            case "Mr_C":
+                 result = (computerChoice === "rock" || computerChoice === "paper" || computerChoice === "scissors" || computerChoice === "ruler") ? "YOU WIN" : "YOU Lose" ;
+                break;
+                case "ruler":
+                    result = (computerChoice === "Mr_C") ? "YOU WIN" : "YOU Lose";
                     break;
          }
 } 
@@ -43,12 +46,12 @@ function playGame(playerChoice) {
 
 
     switch(result){
-        case "YOU WIN!":
+        case "YOU WIN":
             resultDisplay.classList.add("greenText");
             playerScore++;
             playerScoreDisplay.textContent = playerScore;
             break;
-        case "YOU LOSE!":
+        case "YOU Lose":
             resultDisplay.classList.add("redText");
             computerScore++;
             computerScoreDisplay.textContent = computerScore;
