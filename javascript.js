@@ -1,6 +1,6 @@
 // ROCK PAPER SCISSORS
 
-const choices = ["rock", "paper", "scissors", "Mr_C" , "Ruler"];
+const choices = ["rock", "paper", "scissors", "Mr_C" , "ruler"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
