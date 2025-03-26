@@ -22,13 +22,13 @@ function playGame(playerChoice) {
     else{
         switch(playerChoice){
             case "rock":
-                result = (computerChoice === "scissors" ) ? "YOU WIN" : "You Lose";
+                result = (computerChoice === "scissors" ) ? "YOU WIN" : "YOU Lose";
                 break;
             case "paper":
-                result = (computerChoice === "rock") ? "YOU WIN" : "YOU Lose";
+                result = (computerChoice === "rock" || computerChoice === "Mr_C" || computerChoice === "ruler") ? "YOU WIN" : "YOU Lose";
                 break;
              case "scissors":
-                result = (computerChoice === "paper") ? "YOU WIN" : "YOU Lose";
+                result = (computerChoice === "paper" || computerChoice === "ruler") ? "YOU WIN" : "YOU Lose";
                 break;
             case "Mr_C":
                  result = (computerChoice === "rock" || computerChoice === "paper" || computerChoice === "scissors" || computerChoice === "ruler") ? "YOU WIN" : "YOU Lose" ;
