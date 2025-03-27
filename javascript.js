@@ -9,8 +9,8 @@ const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 let playerScore = 0;
 let computerScore = 0;
 
-  
-
+  /* this will displayed the score, or starting score and final score  */
+//
 function playGame(playerChoice) {
     
     const computerChoice = choices[Math.floor(Math.random() * 5)];
@@ -23,7 +23,7 @@ function playGame(playerChoice) {
         switch(playerChoice){
             case "rock":
                 result = (computerChoice === "scissors" ) ? "YOU WIN" : "YOU Lose";
-                break;
+                break;  /* this will displayed what you picked against the cpu  */
             case "paper":
                 result = (computerChoice === "rock" || computerChoice === "Mr_C" || computerChoice === "ruler") ? "YOU WIN" : "YOU Lose";
                 break;
@@ -56,6 +56,6 @@ function playGame(playerChoice) {
             computerScore++;
             computerScoreDisplay.textContent = computerScore;
              break;
-    }
+    }  /* this will displayed if you had won or lose depending on the text color   */
 
 }

@@ -13,7 +13,7 @@ h1{
 
 }
 .choices{
-    margin-bottom: 30px;
+    margin-bottom: 30px; /* for the choices and the postion they are at  */
 }
 .choices button{
     font-size: 7.5rem;
