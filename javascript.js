@@ -1,19 +1,25 @@
+//Jason Adair
+//4.02.25
+// ROCK PAPER SCISSORS PROJECT
+// created 3.28.25
+//script.js
 // ROCK PAPER SCISSORS
 
 const choices = ["rock", "paper", "scissors", "Mr_C", "ruler"];
 const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
+const reset_button = document.getElementById('reset-btn');
 const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 let playerScore = 0;
 let computerScore = 0;
 
-  /* this will displayed the score, or starting score and final score  */
+  /* this will displayed the score, or starting score and final score and the final score of the game  */
 //
 function playGame(playerChoice) {
     
-    const computerChoice = choices[Math.floor(Math.random() * 5)];
+    const computerChoice = choices[Math.floor(Math.random() * 5)]; // numbers of choices that you have to play against the AI who will think of something that wikk beat it. 
     let result = ""; 
 
     if(playerChoice === computerChoice){
@@ -23,7 +29,7 @@ function playGame(playerChoice) {
         switch(playerChoice){
             case "rock":
                 result = (computerChoice === "scissors" ) ? "YOU WIN" : "YOU Lose";
-                break;  /* this will displayed what you picked against the cpu  */
+                break;  /* this will displayed what you or the cpu has picked to play against each other   */
             case "paper":
                 result = (computerChoice === "rock" || computerChoice === "Mr_C" || computerChoice === "ruler") ? "YOU WIN" : "YOU Lose";
                 break;
@@ -42,6 +48,7 @@ function playGame(playerChoice) {
     computerDisplay.textContent = `COMPUTER: ${computerChoice}` ;
     resultDisplay.textContent = result;
 
+    
     resultDisplay.classList.remove("greenText","redText")
 
 
@@ -56,6 +63,8 @@ function playGame(playerChoice) {
             computerScore++;
             computerScoreDisplay.textContent = computerScore;
              break;
-    }  /* this will displayed if you had won or lose depending on the text color   */
+             
+
+    }  /* this will displayed if you had won or lose depending on the text color and if you won or the computer has   */
 
 }
