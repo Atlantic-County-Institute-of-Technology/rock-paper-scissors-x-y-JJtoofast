@@ -65,6 +65,6 @@ function playGame(playerChoice) {
              break;
              
 
-    }  /* this will displayed if you had won or lose depending on the text color and if you won or the computer has   */
+    }  /* this will displayed if you had won or lose depending on the text color and if you won or the computer has */
 
 }
