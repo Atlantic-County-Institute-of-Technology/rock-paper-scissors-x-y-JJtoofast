@@ -43,3 +43,18 @@ h1{
 .redText, #computerScoreDisplay{
     color: red;
 } 
+.reset-btn {
+    background-color: white;
+    border: 15px;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.reset-btn:hover {
+    background-color: red;
+}

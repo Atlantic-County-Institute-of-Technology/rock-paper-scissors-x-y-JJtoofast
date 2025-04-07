@@ -15,9 +15,16 @@ const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 let playerScore = 0;
 let computerScore = 0;
 
-  /* this will displayed the score, or starting score and final score and the final score of the game  */
+reset_button.addEventListener('click', () => {
+    console.log("Reset button clicked.");
+    reset_game();
+})
+
+  /* this will displayed the score, or starting score and final score and the final score of the game and will comprare player's selected item compared to the cpu's  */
 //
 function playGame(playerChoice) {
+    
+
     
     const computerChoice = choices[Math.floor(Math.random() * 5)]; // numbers of choices that you have to play against the AI who will think of something that wikk beat it. 
     let result = ""; 
@@ -67,4 +74,12 @@ function playGame(playerChoice) {
 
     }  /* this will displayed if you had won or lose depending on the text color and if you won or the computer has */
 
+    
+} 
+
+// function to reset the UI and all associated values
+function reset_game() {
+    // reset the scores to zero
+    player_score_val = 0;
+    computer_score_val = 0;
 }
